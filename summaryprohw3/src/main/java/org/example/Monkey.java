@@ -1,0 +1,17 @@
+package org.example;
+
+public class Monkey {
+    private String color;
+
+    public Monkey(String color) {
+        this.color = color;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+}
